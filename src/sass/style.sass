@@ -1,0 +1,624 @@
+*
+    box-sizing: border-box
+    font-family: 'Montserrat', sans-serif
+@import 'media'
+::-webkit-scrollbar 
+    width: 10px
+::-webkit-scrollbar-track 
+    background: #f1f1f1
+::-webkit-scrollbar-thumb 
+    background: #888
+::-webkit-scrollbar-thumb:hover 
+    background: #555
+nav
+    position: absolute
+    width: 100%
+    .icon_logo
+        margin-top: 29px
+        width: 149px
+        height: 64px
+    .menu
+        display: flex
+        justify-content: space-around
+        margin: 0 auto
+        margin-top: 59px
+        padding: 0
+        &_item
+            font-weight: 600
+            font-size: 16px
+            text-transform: uppercase
+            list-style-type: none
+        &_link
+            color: #FFFFFF
+            text-decoration: none
+            font-weight: 600
+            font-size: 16px
+            text-transform: uppercase
+            transition: 0.3s all
+            &:hover
+                color: #38B71D
+    .hamburger
+            display: none
+    .language
+        display: flex
+        justify-content: space-between
+        margin-top: 57px
+        &_descr
+            color: #FFFFFF
+            font-style: normal
+            font-weight: 600
+            font-size: 16px
+            text-transform: uppercase
+        &_burgermenu
+            display: none
+       
+.promo
+    background: url('/img/mainbg.jpg') center (center / cover) no-repeat
+    height: 100vh
+    padding: 33vh 
+    h1, h2, .promo_descr
+        text-align: center
+        font-weight: 700
+        font-size: 112px
+        color: #FFFFFF
+        line-height: 136px
+    h2
+        font-size: 54px
+        line-height: 66px
+    .promo_descr
+        margin: 0 auto
+        font-weight: 400
+        font-size: 26px
+        line-height: 34px
+    &_footer
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin: 0 auto
+        margin-top: 21vh
+        width: 164px
+        a
+            position: absolute
+            display: flex
+            justify-content: space-between
+            align-items: center
+            text-decoration: none
+        &_icon
+            width: 28px
+            height: 33px
+        &_descr
+            margin-left: 22px
+            font-weight: 500
+            font-size: 14px
+            color: #EFEFEF
+            text-transform: uppercase
+        &_phone
+            position: absolute
+            display: flex
+            justify-content: center
+            align-items: center
+            right: 6vh
+            left: auto
+            top: 90vh
+            width: 50px
+            height: 50px
+            background: #38B71D
+            border-radius: 60px
+            &_icon
+                width: 18px
+                height: 18px
+
+.about
+    padding: 79px 0 85px 0
+    button
+        border: none
+        background-color: white
+        a
+            text-decoration: none
+    &_items
+        display: flex
+        align-items: center
+        &_img1
+            width: 124px
+            height: 511px
+        &_img2
+            width: 469px
+            height: 511px
+            margin-left: 44px
+    &_wrapper
+        margin-left: 91px
+        padding-top: 30px
+        button
+            padding: 0
+        .green_rectangle
+            width: 21px
+            height: 6.5px
+            background: #38B71D
+        &_tittle
+            font-weight: 400
+            font-size: 50px
+            text-transform: uppercase
+            color: #151515
+        &_descr
+            margin-top: 15px
+            font-weight: 400
+            font-size: 14px
+            line-height: 23px
+            color: #777777
+        &_more
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-top: 20px
+            .more_descr
+                font-weight: 600
+                font-size: 28px
+                letter-spacing: 0.08em
+                color: #38B71D
+            .more_icon
+                margin-left: 24px
+                width: 28px
+                height: 26px
+
+.indicators
+    padding-bottom: 89px
+    min-height: 400px
+    .col-xl-1
+        padding: 0
+        transform: rotate(-90deg)
+    &_pointer
+        position: absolute
+        margin-top: 85px
+        &_descr
+            width: 165px
+            font-weight: 350
+            font-size: 15px
+            text-align: right
+            text-transform: uppercase
+            color: #999999
+        &_rectangle
+            margin: 8.6px 0 0 auto
+            width: 58px
+    &_tittle
+        height: 240px
+        font-weight: 400
+        font-size: 55px
+        line-height: 62px
+        text-transform: uppercase
+        color: #151515
+    &_descr
+        font-weight: 400
+        font-size: 24px
+        line-height: 34px
+        text-align: right
+        color: #7D7D7D
+    &_wrapper
+        display: flex
+        align-items: flex-start
+        justify-content: space-between
+    &_item
+        width: 25%
+        &_number
+            margin: 0 auto
+            font-weight: 350
+            font-size: 37px
+            text-align: center
+        &_descr
+            margin: 0 auto
+            margin-top: 11px
+            font-weight: 400
+            font-size: 20px
+            line-height: 21px
+            text-align: center
+            color: #7D7D7D
+
+.services
+    padding-bottom: 95px
+    background: url('/img/services_VIA.jpg') no-repeat
+    background-size: 441px 462px
+    .col-xl-1
+        padding: 0
+        transform: rotate(-90deg)
+    button
+        padding: 0
+        border: none
+        background-color: white
+        a
+            text-decoration: none
+    &_wrapper
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &_item
+        margin: 20px
+        width: 376px
+        &_descr
+            margin: 0 auto
+            margin-top: 41.5px
+            width: 100%
+            font-weight: 600
+            font-size: 20px
+            line-height: 24px
+            color: #151515
+    &_img
+        margin: 0 auto
+        width: 100%
+        height: 100%
+    &_more
+        width: 117px
+        margin-top: 20px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &_descr
+            font-weight: 700
+            font-size: 14px
+            text-transform: uppercase
+            color: #38B71D
+    
+.advantage
+    background: url('/img/advantage_bg.jpg') center (center / cover) no-repeat
+    padding: 129px 0
+    min-height: 703px
+    .col-xl-1
+        padding: 0
+        transform: rotate(-90deg)
+    .white
+        color: white
+    &_wrapper
+        display: flex
+        justify-content: space-around
+        align-items: center
+    &_item
+        width: 25%
+        &_icon
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 88.11px
+            height: 88.11px
+            background: #FFFFFF
+            border-radius: 50%
+        &_tittle
+            margin-top: 34px
+            font-weight: 700
+            font-size: 18px
+            line-height: 21px
+            color: #FFFFFF
+        &_hr
+            margin-top: 21.5px
+            width: 15px
+            height: 5px
+            background: #FFFFFF
+        &_descr
+            margin-top: 19px
+            font-weight: 400
+            font-size: 16px
+            line-height: 19px
+            color: #FFFFFF
+
+.projects
+    padding: 94px 0 85px 0
+    min-height: 816px
+    margin: 0 auto
+    .col-xl-1
+        padding: 0
+        transform: rotate(-90deg)
+    &_wrapper
+        position: relative
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .slick-prev, .slick-next  
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            left: -35px
+            border: none
+            background-color: #fff
+        .slick-next  
+            right: -35px
+            left: auto
+        &_arrow
+            display: flex
+            align-items: center
+            &_left
+                width: 35px
+                height: 35px
+                position: absolute
+                top: 50%
+                transform: translateY(-50%)
+                left: -35px
+            &_right
+                width: 35px
+                height: 35px
+                position: absolute
+                top: 50%
+                transform: translateY(-50%)
+                right: -35px
+    &_item
+        width: 558px
+        margin: auto 16px
+        height: 475px
+        padding: 24px
+        border: 1px solid #E5E5E5
+        &_img
+            width: 100%
+        &_descr
+            margin-top: 8.5px
+            font-weight: 700
+            font-size: 20px
+            line-height: 25px
+            color: #151515
+        &_date
+            font-weight: 400
+            font-size: 13px
+            color: #888888
+    .green
+        margin-top: 32px
+        background-color: #38B71D
+        
+.feedback
+    background: url('/img/feedback_bg.jpg') center (center / cover) no-repeat
+    padding: 111px 0
+    min-height: 657px
+    .indicators_tittle
+        height: 175px
+        display: flex
+        align-items: center
+    .grey
+        color: #9A9A9A
+    .col-xl-1
+        padding: 0
+        transform: rotate(-90deg)
+    .white
+        color: white
+    .mt73px
+        padding: 0
+        border: none
+        margin-top: 72.5px
+        background-color: rgba(28,28,28,0)
+    &_subtittle
+        margin-top: 12px
+        font-weight: 400
+        font-size: 18px
+        line-height: 23px
+        color: #B4B4B4
+        width: 456px
+    &_form
+        min-width: 443px
+        margin-top: 44.5px   
+        .feedback_name
+            width: 235px
+        .feedback_phone
+            width: 142px
+            margin-left: 66px
+        &_wrapper
+            display: flex 
+            justify-content: space-between
+            align-items: center
+    &_input
+        border: 0
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+        background-color: rgba(0,0,0,0)
+        outline: 0
+        font-weight: 400
+        font-size: 17.1694px
+        line-height: 21px
+        color: rgba(255, 255, 255, 0.7)
+        &_company
+            margin-top: 35px
+            border: 0
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+            background-color: rgba(0,0,0,0)
+            outline: 0
+            font-weight: 400
+            font-size: 17.1694px
+            line-height: 21px
+            color: rgba(255, 255, 255, 0.7)
+            width: 100%
+
+.blog
+    padding: 80px 0 0 0
+    min-height: 885.5px
+    .col-xl-1
+        padding: 0
+        transform: rotate(-90deg)
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+    .director_img
+        width: 569px
+        height: 650px
+    &_descr
+        display: flex
+        justify-content: top
+        align-items: flex-start
+    .green_rect
+        margin-top: 20px
+        margin-right: 10px
+    .padding-top0
+        padding-top: 0
+    .director_name
+        margin-top: 32px
+        font-weight: 400
+        font-size: 18px
+        line-height: 26px
+        color: #151515
+
+.video
+    min-height: 762px
+    padding: 95.5px 0
+    .col-xl-1
+        padding: 0
+        transform: rotate(-90deg)
+    &_wrapper
+        position: relative
+        display: flex
+        justify-content: center
+        flex-direction: row
+        flex-wrap: wrap
+        .slick-prev, .slick-next  
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            left: -47px
+            border: none
+            background-color: #fff
+        .slick-next  
+            right: -47px
+            left: auto
+        &_item1
+            position: relative
+            margin: 4px
+            background: url('/img/video_img1.jpg') center (center / cover) no-repeat
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 271px
+            height: 274px
+            .video_play
+                position: absolute              
+                top: 50%
+                left: 50%
+                margin-right: -50%
+                transform: translate(-50%, -50%)
+        &_item2
+            position: relative
+            margin: 4px
+            background: url('/img/video_img2.jpg') center (center / cover) no-repeat 
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 512px
+            height: 274px
+            .video_play
+                position: absolute              
+                top: 50%
+                left: 50%
+                margin-right: -50%
+                transform: translate(-50%, -50%)
+        &_item3
+            position: relative
+            margin: 4px
+            background: url('/img/video_img3.jpg') center (center / cover) no-repeat
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 303px
+            height: 274px
+            .video_play
+                position: absolute              
+                top: 50%
+                left: 50%
+                margin-right: -50%
+                transform: translate(-50%, -50%)
+        &_item4
+            position: relative
+            margin: 4px
+            background: url('/img/video_img4.jpg') center (center / cover) no-repeat
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 227px
+            height: 274px
+            .video_play
+                position: absolute              
+                top: 50%
+                left: 50%
+                margin-right: -50%
+                transform: translate(-50%, -50%)
+        &_item5
+            position: relative
+            margin: 4px
+            background: url('/img/video_img5.jpg') center (center / cover) no-repeat
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 439px
+            height: 274px
+            .video_play
+                position: absolute              
+                top: 50%
+                left: 50%
+                margin-right: -50%
+                transform: translate(-50%, -50%)
+        &_item6
+            position: relative
+            margin: 4px
+            background: url('/img/video_img6.jpg') center (center / cover) no-repeat 
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 420px
+            height: 274px
+            .video_play
+                position: absolute              
+                top: 50%
+                left: 50%
+                margin-right: -50%
+                transform: translate(-50%, -50%)
+    .company_wrapper
+        position: relative
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 95.5px
+        .slick-prev, .slick-next  
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            left: -47px
+            border: none
+            background-color: #fff
+        .slick-next  
+            right: -47px
+            left: auto
+    .company_item
+        margin: 0 15px
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 167.5px
+        height: 70px
+        border: 1px solid #C6C6C6
+
+footer
+    padding-top: 22px
+    min-height: 150px
+    background: url('/img/footer_bg.jpg') center (center / cover) no-repeat
+    a
+        text-decoration: none
+    .icon_logo
+        width: 149px
+        height: 64px
+    .mt
+        margin: 25px 0 auto auto
+        display: flex
+        align-items: center
+        width: 197.5px
+    .footer_nav
+        margin-top: 30px
+        font-style: normal
+        font-weight: 800
+        font-size: 15px
+        text-transform: uppercase
+        color: #FFFFFF
+        .footer_nav_link
+            color: #FFFFFF
+            transition: 0.3s all
+            text-decoration: none
+            &:hover
+                color: #38B71D
+
+    .ml16px
+        margin-left: 16px
+
+    
+    
+        
+
+
